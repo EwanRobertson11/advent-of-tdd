@@ -51,7 +51,6 @@ public class Scenario {
         digitMap.put(8, "eight");
         digitMap.put(9, "nine");
 
-
         String str = stri;
         for (int i = 1; i < digitMap.size() + 1; i++) {
             str = str.replace(digitMap.get(i), "" + digitMap.get(i).charAt(0) + i + digitMap.get(i).charAt(digitMap.get(i).length() - 1));
